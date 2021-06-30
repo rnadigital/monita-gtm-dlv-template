@@ -15,5 +15,5 @@
 homepage: "https://getmonita.io"
 documentation: "http://support.getmonita.io"
 versions:
-  - sha: 7dcbe7918fce1e9e155221a18939d8487ddd088a
+  - sha: e04fe442ad5eec65495bdd4bdd5a397d54cbeec5
     changeNotes: Initial Version
