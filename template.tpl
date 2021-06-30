@@ -10,13 +10,14 @@ ___INFO___
 {
   "type": "TAG",
   "id": "cvt_temp_public_id",
-  "version": 1,
+  "version": 1.0,
   "securityGroups": [],
   "displayName": "Monita DataLayer Monitoring",
   "categories": [
     "TAG_MANAGEMENT",
     "ANALYTICS",
-    "UTILITY"]
+    "UTILITY"
+  ],
   "brand": {
     "id": "getmonita.io",
     "displayName": "Monita",
