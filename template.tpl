@@ -178,7 +178,7 @@ if(endPoint && token && data.dataLayer) {
       log({key: key, value: values});
 
       if(values.length > 0) {
-        const payload ='?tag_sc_token=' + encodeUriComponent(token) +
+        const payload ='?tag_sc_token=' + token +
               '&dataLayerKey=' + keyParts.join('.') +
               '&dataLayerValue=' + values.map(encodeUriComponent) +
               '&eventName=' + (dlEntry.event || '')+
