@@ -16,8 +16,10 @@ homepage: "https://getmonita.io"
 documentation: "http://support.getmonita.io"
 versions:
   # Latest version
+  - sha: 7c0bb0cdd6af9c3f84e7a2b139773d2957f9c21f
+    changeNotes: Removed query parameters from url and encoded token
+  # Older versions
   - sha: e8790aa060dd0b745c248549a25b4d4ef7169766
     changeNotes: Remove URL encoding on token
-  # Older versions
   - sha: 53a8b3e7f38510c870c345b8ca496abcb30ad0d3
     changeNotes: Initial Version
