@@ -1,4 +1,4 @@
-___TERMS_OF_SERVICE___
+﻿___TERMS_OF_SERVICE___
 
 By creating or modifying this file you agree to Google Tag Manager's Community
 Template Gallery Developer Terms of Service available at
@@ -70,6 +70,18 @@ ___TEMPLATE_PARAMETERS___
         "type": "TEXT"
       }
     ]
+  },
+  {
+    "type": "TEXT",
+    "name": "customerId",
+    "displayName": "Customer ID",
+    "simpleValueType": true
+  },
+  {
+    "type": "TEXT",
+    "name": "sessionId",
+    "displayName": "Session ID",
+    "simpleValueType": true
   }
 ]
 
@@ -189,6 +201,8 @@ if(endPoint && token && data.dataLayer) {
               '&envName=' + cv.environmentName+
               '&tag_ctid=' + cv.containerId+
               '&timestamp=' + getTimestamp()+
+              '&customerId=' + data.customerId+
+              '&sessionId=' + data.sessionId+
               '&dlValidation=' + true;
         log({message: "sendPixel", payload: endPoint+payload});
         sendPixel(endPoint + payload);
